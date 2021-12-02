@@ -63,7 +63,7 @@ jobs:
         fetch-depth: 0
 
       # Ubuntu / MacOS Testing
-    - name: Install cocotb build dependencies (Ubuntu - g++) 
+    - name: Install cocotb build dependencies (Ubuntu - g++)
       run: |
         sudo apt install g++ -y
     - name: Install cocotb build dependencies (Ubuntu - clang++)
